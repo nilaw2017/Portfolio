@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;	
+}
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+header{
+	background-color: #222222;
+}
+.flex{
+	display: flex;
+}
+.sb{
+	justify-content: space-between;
+}
+.top-container{
+	padding: 17px 100px;
+}
+.nav-menu ul{
+	margin-bottom: 10px;
+	text-align: right;	
+}
+.nav-menu ul li{
+	display: inline;
+}
+.nav-menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0 10px;
+	border-right: 1px solid #fff;
+}
+.searchbox{
+	width: 300px;
+	border-radius: 10px;
+	height: 37px;
+	border: 0;
+	padding-left: 10px; 
+	margin-right: 0.1px;
+}
+.fa-search, .fa-shopping-cart{
+	background-color: #F10E34;
+	color: #fff;
+	height: 37px;
+	width: 60px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	margin-right: 44px;
+}
+.shopping-cart-box{
+	width: 40px;
+	height: 40px;
+	margin: 0;
+	border-radius: 50%;
+}
+.search-shop{
+	width: 491px;
+}
+.txt-white{
+	color: #fff;
+}
+/*HEADER ENDING*/
+/*BODY START*/
+.body{
+	background-color: #F3F3F3
+}
+.nav-red{
+	background-color: #F10E34;
+	color: #fff;
+	padding: 20px 115px; 
+}
+.fa-th-list{
+	margin-right: 20px;
+}
+
+.margin-top{
+	margin-top: 40px;
+}
+.margin-bottom{
+	margin-bottom: 40px;
+}
+.margin-left{
+	margin-left: 20px;
+}
+.padding-main{
+	padding: 0 100px;
+}
+.list{
+	background-color: #fff;
+	
+}
+.list ul{
+	list-style: url(../img/list-style.png);
+	padding: 20px 0 20px 24px;
+}
+.list ul li{
+	margin: 10px 0;
+}
+.list ul li a{
+	text-decoration: none;
+	color: #A3A3A3;
+	padding: 20px 0;
+}
+.list ul hr{
+	width: 90%;
+}
+.awesomegirl-box{
+	
+	margin-left: 20px;
+}
+.awesomegirl-img{
+	height: 370px;
+	background-image: url(../img/awesomegirl.png); 
+}
+.deals{
+	background-color: #F10E34;	
+	color: #fff;
+
+}
+.deals div{
+	text-align: center;	
+}
+.same-girl{
+	position: relative;
+}
+.list1{
+	width: 100%;
+	padding: 20px
+}
+.position-a{
+	position: relative;
+	top: 100px;
+	right: 200px;
+	text-align: center;
+}
+.position-a h1{
+	color: #303A7A
+}
+div .big-text{
+	color: #fff;
+	font-size: 50px;
+}
+div p{
+	color: #000;
+}
+.button{
+	background-color: transparent;
+	padding: 5px 10px;
+	margin: 30px 0;
+}
+
+
+/*REFRESHED START*/
+/*<!-- START OF HOT DEALS AND NEW PRODUCT -->*/
+.hot-deals{
+	width: 275px;
+	padding: 10px 25px;
+	background-color: #fff;
+	color: #000;
+	box-shadow: 2px 5px 8px black;
+}
+.hot-deals hr{
+	width: 90%;
+	margin: 20px 0;
+}
+.border{
+	border: solid 2px black;
+}
+
+.ipsum{
+	text-align: center;
+}
+.ipsum p{
+	color: #292929;
+}
+.ipsum del{
+	
+	color: #737373;
+}
+.ipsum i{
+	color: #FFC808;
+}
+.ipsum img{
+	max-height: 100%;
+}
+.owl-carousel .owl-item img {
+    height:auto;
+    width:100%;
+    display: block;
+}	
+/*PRODUCTS WITH CAROUSEL*/
+.products{
+	background-color: #fff;
+	max-width: 100%;
+	margin-left: 20px;
+	padding: 30px;
+}
+
+.products p{
+	color: #000;
+	text-align: center;
+}
+.products del{
+	color: #737373;	
+}
+.test{
+	width: 100px;
+	height: 100px;
+	background-color: #bfbf;
+}
+.border{
+	border: 2px black solid;
+}
+.btn{
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #F22F49;
+	color: #fff;
+	border: 0;
+}
+/*<!--
+	START OF FASHION SALE*/
+/*-->*/
+.fashion-bannerimg1{
+	background-image: url(../img/shoesbanner.png);
+	height: 200px;
+	width: 400px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.fashion-bannerimg2{
+	background-image: url(../img/beardbanner.png);
+	height: 200px;
+	width: 400px;
+	background-repeat: no-repeat;	
+	position: relative;
+}
+.cover{
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 200px;
+	width: 50px;
+}
+.fashion-bannerimg3{
+	background-image: url(../img/multilaptop.png);
+	height: 300px;
+	width: 80%;
+	background-repeat: no-repeat;	
+	position: relative;
+}
+.banner{
+	position: absolute;
+	top:0;	
+	overflow: hidden;			
+	right: 35px;
+	color: transparent;
+	background-color: #fff;
+	height: 200px;
+	padding: 15px;
+	text-align: right;
+	width: 0;
+	transition: 1s;
+}
+.cover:hover .banner{
+	color: initial;
+	transition: 1s;
+	transform: skew(-10deg);
+	width: 300%;
+}
+div .banner1{
+	position: absolute;
+	top:0;
+	right: -100px;
+	background-color: #fff;
+	max-height:100%;
+	padding: 15px;
+	text-align: right;
+	width: 350px;
+}
+.banner1 h3{
+	color: #0F8CE9;
+}
+.multilaptop{
+	height: 150px;
+	margin-left: 20px;
+	width: 100%;
+}
+.banner h1{
+	font-weight: 2000px;
+}
+.half{
+	max-width: 50%;
+}
+.max{
+	max-width: 100%;
+	max-height: 100%;
+}
+.inline{
+	display: inline;
+}
+footer .padding-main{
+	background-color: #F10E34;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

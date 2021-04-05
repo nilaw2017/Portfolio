@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<!-- OWL CAROUSEL -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+		<style type="text/css">
+			.item{
+				background-color: #4DC7A0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="owl-carousel owl-theme">
+			<div class="nav"><h4>1</h4>
+				<div class="blabla"><h1>I am kid</h1></div></div>
+			<div class="nav1"><h4>2</h4></div>
+			<div class="nav"><h4>3</h4></div>
+			<div class="nav"><h4>4</h4></div>
+			<div class="nav"><h4>5</h4></div>
+			<div class="nav"><h4>6</h4></div>
+		</div>
+
+		<!-- OWL CAROUSEL -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+		$(".owl-carousel").owlCarousel({
+			loop:true,
+			margin:10,
+			nav:true,
+			responsive:{
+			0:{
+			items:1
+			},
+			600:{
+			items:3
+			},
+			1000:{
+			items:6
+			}
+			}
+		});
+		});
+		</script>
+	</body>
+</html>
