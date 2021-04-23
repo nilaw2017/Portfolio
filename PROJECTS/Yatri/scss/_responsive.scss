@@ -1,0 +1,32 @@
+@media screen and (min-width:800px){
+    .elegance{
+        width:90% !important;
+        h1{
+            font-size: 44px;
+            text-shadow: 1px 1px 5px;
+        }
+        p{
+            font-size: 21px;
+        }
+    }
+    .spec{
+        padding: 100px;
+    }
+    .line-reserve{
+        margin-top: 100px;
+        .line{
+            width:150px;
+            background-color: #fff; 
+            opacity: 1;
+            transform: rotate(270deg);
+            margin: auto;
+            display:block;
+        }
+        .reserve-box{
+            bottom: -175px;
+        }
+    }
+    footer{
+        display:block;
+    }
+}

@@ -1,0 +1,92 @@
+.blur-yatri-bike{
+    filter: blur(5px);
+}
+.test{
+    // overflow:hidden;
+    .elegance{
+        filter: none;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width: 60% !important;
+        transition:  left 1.3s linear;
+        h1,p{
+            color: #fff !important;
+            filter: none;
+            font-weight:bold;
+            letter-spacing:1px;
+        }   
+        h1{
+            font-size: 34px;
+            text-shadow: 1px 1px 5px;
+        }
+        p{
+            font-size: 15px;
+        }
+}
+}
+
+.info-section{
+    margin: 50px 0;
+    .row{
+        padding: 0 !important;
+        margin:0 !important;
+        .info{
+            color: #fff;
+            // padding: 0 50px 0 0;
+            align-self:center;
+            h2{
+                text-shadow: 1px 1px 3px;
+                font-weight:bolder;
+            }
+            p{
+                font-size: 17px;
+            }
+        }
+    }
+}
+.spec{
+    color: #fff;
+    
+    margin: 100px 0;
+    hr{
+        background-color: #fff !important;
+        opacity: 1;
+    }
+}
+
+.line-reserve{
+    margin-top: 100px;
+    .line{
+        width:100px;
+        background-color: #fff; 
+        opacity: 1;
+        transform: rotate(270deg);
+        margin: auto;
+        display:block;
+    }
+    .reserve-box{
+        bottom:-150px;
+        transform:(translate(0,100px));
+        button{
+            margin: auto;
+            padding: 10px 20px;
+            background-color: #000;
+            border: #fff 2px solid;
+            border-radius: 20px;
+            transition:1s;
+            &:hover{
+                transform: scale(1.2);
+                transition: 1s;
+            }
+            a{
+                text-decoration: none;
+                color: #fff;
+                letter-spacing: 2px;
+                font-size: 13px;
+            }
+        }
+    }
+}
+.video-info{
+    transition: 1s linear;
+}
