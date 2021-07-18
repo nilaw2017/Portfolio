@@ -7,7 +7,7 @@ window.onscroll = function() {
 };
 
 function scrollFunction() {
-  if (window.scrollY >= 640 && window.scrollY <= 1160) {
+  if (window.scrollY >= 520 && window.scrollY <= 1482) {
     document.querySelector(".elegance").style.transition = "1s";
     document.querySelector(".elegance").style.opacity = "1";
     document.querySelector(".elegance").style.top = "50%";
@@ -16,7 +16,7 @@ function scrollFunction() {
     document.querySelector(".elegance").style.top = "70%";
   }
 
-  if (window.scrollY >= 1320 && window.scrollY <= 2000) {
+  if (window.scrollY >= 1596 && window.scrollY <= 2530) {
     document.querySelector(".power-train").style.transition = "1s";
     document.querySelector(".power-train").style.opacity = "1";
     document.querySelector(".power-train").style.transform = "translateY(0)";
@@ -25,7 +25,7 @@ function scrollFunction() {
     document.querySelector(".power-train").style.transform = "translateY(200px)";
   }
 
-  if (window.scrollY >= 1779 && window.scrollY <= 2600) {
+  if (window.scrollY >= 2100 && window.scrollY <= 3100) {
     document.querySelector(".console-img").style.transition = "1s";
     document.querySelector(".console-img").style.opacity = "1";
     document.querySelector(".console-img").style.transform = "translateY(0)";
@@ -34,7 +34,7 @@ function scrollFunction() {
     document.querySelector(".console-img").style.transform = "translateY(200px)";
   }
 
-  if (window.scrollY >= 2000 && window.scrollY <= 2800) {
+  if (window.scrollY >= 2200 && window.scrollY <= 3200) {
     document.querySelector(".console-info").style.transition = "1s";
     document.querySelector(".console-info").style.opacity = "1";
     document.querySelector(".console-info").style.transform = "translateY(0)";
@@ -43,7 +43,7 @@ function scrollFunction() {
     document.querySelector(".console-info").style.transform = "translateY(200px)";
   }
 
-  if (window.scrollY >= 2527 && window.scrollY <= 3000) {
+  if (window.scrollY >= 2700 && window.scrollY <= 3700) {
     document.querySelector(".video-anim").style.transition = "1s";
     document.querySelector(".video-anim").style.opacity = "1";
     document.querySelector(".video-anim").style.transform = "translateY(0)";
@@ -52,13 +52,13 @@ function scrollFunction() {
     document.querySelector(".video-anim").style.transform = "translateY(200px)";
   }
 
-  if (window.scrollY >= 2767 && window.scrollY <= 3348) {
+  if (window.scrollY >= 2800 && window.scrollY <= 3800) {
     document.querySelector(".video-info").style.opacity = "1";
   } else {
     document.querySelector(".video-info").style.opacity = "0";
   }
 
-  if (window.scrollY >= 3240 && window.scrollY <= 4048) {
+  if (window.scrollY >= 3400 && window.scrollY <= 4400) {
     document.querySelector(".powertrain").style.transition = "1s";
     document.querySelector(".powertrain").style.opacity = "1";
     document.querySelector(".powertrain").style.transform = "translateY(0)";
@@ -67,7 +67,7 @@ function scrollFunction() {
     document.querySelector(".powertrain").style.transform = "translateY(200px)";
   }
 
-  if (window.scrollY >= 3750 && window.scrollY <= 4626) {
+  if (window.scrollY >= 4100 && window.scrollY <= 5100) {
     document.querySelector(".structure").style.transition = "1s";
     document.querySelector(".structure").style.opacity = "1";
     document.querySelector(".structure").style.transform = "translateY(0)";
@@ -76,7 +76,7 @@ function scrollFunction() {
     document.querySelector(".structure").style.transform = "translateY(200px)";
   }
 
-  if (window.scrollY >= 4203 && window.scrollY <= 5200) {
+  if (window.scrollY >= 4600 && window.scrollY <= 5600) {
     document.querySelector(".dimensions").style.transition = "1s";
     document.querySelector(".dimensions").style.opacity = "1";
     document.querySelector(".dimensions").style.transform = "translateY(0)";
@@ -85,7 +85,7 @@ function scrollFunction() {
     document.querySelector(".dimensions").style.transform = "translateY(200px)";
   }
 
-  if (window.scrollY >= 4641 && window.scrollY <= 5400) {
+  if (window.scrollY >= 5000 && window.scrollY <= 6000) {
     document.querySelector(".connectivity").style.transition = "1s";
     document.querySelector(".connectivity").style.opacity = "1";
     document.querySelector(".connectivity").style.transform = "translateY(0)";
